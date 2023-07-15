@@ -102,8 +102,9 @@ while True:
                     case _:
                         count += 1
 
-                    # print('Можно добавить только: horse, camel, donkey, dog, cat, hamster')
-
+        case '6':
+            countt = Counter()
+            print(countt.get_count())
         case '0':
             print('Пока')
             exit()
